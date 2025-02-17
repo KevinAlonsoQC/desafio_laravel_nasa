@@ -93,11 +93,18 @@ Ejemplo de endpoints (pueden variar según tu configuración de rutas en `routes
    }
    ```
 
-## 7. Colección de Postman
+## 7. Colección de Postman "localhost" (requiere instalación)
 
 - Dentro de la carpeta raíz del proyecto, encontrarás una carpeta llamada Postman Collection, dentro estará el archivo `Desafio_Laravel_NASA.postman_collection.json`.
 - Importa ese archivo en Postman para probar directamente cada endpoint.
 - Recuerda primero iniciar el proyecto con `php artisan serve`, para que los endpoint estén disponibles localmente.
+
+
+## 8. Colección de Postman "Railway" (no requiere instalación)
+
+- Dentro de la carpeta raíz del proyecto, encontrarás una carpeta llamada Postman Collection, dentro estará el archivo `laravel_railway..postman_collection.json`.
+- Importa ese archivo en Postman para probar directamente cada endpoint.
+- Este postman_collection hace las peticiones al proyecto desplegado en un hosting gratuito `Railway`, por lo cual, acá no es necesario instalar ninguna dependencia.
 
 ## 9. Notas adicionales
 
